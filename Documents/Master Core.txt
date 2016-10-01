@@ -1,0 +1,21 @@
+Owin Auth
+Enity Framework ----------------- Done
+Exception Handling -------------- Done
+Auto Fac ------------------------ Done
+Logging  ------------------------ Done
+Emailer  ------------------------ Done
+Action Filter ------------------- Done
+Intercepter --------------------- Done
+
+::::Entities::::
+User- Id/Username/Email/Password
+
+
+
+::::Packages required for Autofac Config using Owin::::::
+- Install-Package Autofac.WebApi2.Owin -Version 3.3.0
+- Install-Package Autofac.Extras.DynamicProxy2---------------------------used for log intercepters
+
+
+::::::TODO:::::::
+Add core project for logger.log intercepter and emailer. -------------- Done

@@ -1,0 +1,11 @@
+packages/
+MasterApi45.Core/bin/
+MasterApi45.Core/obj/
+MasterApi45.Data/bin/
+MasterApi45.Data/obj/
+MasterApi45.Model/bin/
+MasterApi45.Model/obj/
+MasterApi45.Service/bin/
+MasterApi45.Service/obj/
+MasterApi45/bin/
+MasterApi45/obj/
