@@ -68,6 +68,7 @@
     <Compile Include="MasterApi45Context.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\TestRepository.cs" />
+    <Compile Include="Repository\UserRepository.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>

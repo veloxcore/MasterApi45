@@ -33,13 +33,9 @@ namespace MasterApi45.Filters
                 if (actionExecutedContext.Response != null && actionExecutedContext.Response.Content != null)
                 {
                     if (actionExecutedContext.Response.Content is ObjectContent)
-                    {
                         responseData = ((ObjectContent)actionExecutedContext.Response.Content).Value;
-                    }
                     else
-                    {
                         responseData = actionExecutedContext.Response.Content.ToString();
-                    }
                 }
 
                 try

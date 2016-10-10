@@ -28,5 +28,6 @@ namespace MasterApi45.Data
         }
         public virtual DbSet<Test> Tests { get; set; }
 
+        public virtual DbSet<User> Users { get; set; }
     }
 }

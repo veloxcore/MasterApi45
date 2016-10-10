@@ -9,6 +9,7 @@ using System.Web.Http;
 
 namespace MasterApi45.Controllers
 {
+    [Authorize]
     public class TestController : ApiController
     {
         #region Private Members

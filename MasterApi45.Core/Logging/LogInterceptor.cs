@@ -121,6 +121,10 @@ namespace MasterApi45.Core.Logging
             //Catch ex As Exception
             //    Return value.ToString()
             //End Try
+            if (value == null)
+            {
+                return null;
+            }
             return value.ToString();
 
         }
